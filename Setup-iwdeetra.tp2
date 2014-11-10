@@ -1,0 +1,7 @@
+BACKUP ~iwdeetra/backup~
+AUTHOR ~http://arcanecoast.ru (EE adaptation by Eugene Vlasov)~ //Visit the forums for questions
+VERSION ~V1.9~
+
+BEGIN ~Russian text~
+SUBCOMPONENT ~Icewind Dale: Enhanced Edition Translator~
+STRING_SET_RANGE #0 #40841 USING ~iwdeetra/tra/rec.tra~
