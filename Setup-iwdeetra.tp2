@@ -2,8 +2,7 @@ BACKUP ~iwdeetra/backup~
 AUTHOR ~http://arcanecoast.ru (EE adaptation by Si1ver)~ //Visit the forums for questions
 VERSION ~V2.0~
 
-ALWAYS AT_INTERACTIVE_EXIT ~VIEW iwd1tra\readme.txt~ END
-
+ALWAYS AT_INTERACTIVE_EXIT ~VIEW iwdeetra/README.txt~ END
 
 BEGIN ~Russian text~
 SUBCOMPONENT ~Icewind Dale: Enhanced Edition Translator~
