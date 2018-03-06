@@ -30,3 +30,10 @@ COPY_EXISTING ~deadvilf.cre~ ~lang/ru_RU/override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #33000 #33001 USING ~iwdeetra/tra/fm_capvl.tra~
+
+COPY_EXISTING ~eldathyf.cre~ ~lang/ru_RU/override~
+  SAY NAME1 #33002
+  SAY NAME2 #33002
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #33002 #33002 USING ~iwdeetra/tra/fm_eldyn.tra~
