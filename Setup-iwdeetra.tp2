@@ -9,3 +9,24 @@ STRING_SET_RANGE #0 #40932 USING ~iwdeetra/tra/rec.tra~
 
 COPY ~iwdeetra/L_ru_RU.lua~   ~override/L_ru_RU.lua~
 COPY ~iwdeetra/M_RusFnt.lua~   ~override/M_RusFnt.lua~
+
+BEGIN ~Override Male/Female CRE for Russian text~
+
+MKDIR ~lang/ru_RU/override~
+
+COPY_EXISTING ~cdcapv2a.cre~ ~lang/ru_RU/override~
+    ~cdcapv5a.cre~ ~lang/ru_RU/override~
+    ~cdcapv7a.cre~ ~lang/ru_RU/override~
+    ~cfcapvil.cre~ ~lang/ru_RU/override~
+    ~fcapvil.cre~ ~lang/ru_RU/override~
+    ~ffcapvil.cre~ ~lang/ru_RU/override~
+  SAY NAME1 #33000
+  SAY NAME2 #33000
+  BUT_ONLY_IF_IT_CHANGES
+
+COPY_EXISTING ~deadvilf.cre~ ~lang/ru_RU/override~
+  SAY NAME1 #33000
+  SAY NAME2 #33001
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #33000 #33001 USING ~iwdeetra/tra/fm_capvl.tra~
