@@ -52,3 +52,14 @@ COPY_EXISTING ~priestd.cre~ ~lang/ru_RU/override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #33004 #33004 USING ~iwdeetra/tra/fm_acoly.tra~
+
+COPY_EXISTING ~slavef1.cre~ ~lang/ru_RU/override~
+    ~slavef2.cre~ ~lang/ru_RU/override~
+    ~slavef3.cre~ ~lang/ru_RU/override~
+    ~slavef4.cre~ ~lang/ru_RU/override~
+    ~slavef5.cre~ ~lang/ru_RU/override~
+  SAY NAME1 #33005
+  SAY NAME2 #33005
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #33005 #33005 USING ~iwdeetra/tra/fm_slave.tra~
