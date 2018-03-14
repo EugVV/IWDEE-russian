@@ -71,3 +71,10 @@ COPY_EXISTING ~slavedf1.cre~ ~lang/ru_RU/override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #33006 #33006 USING ~iwdeetra/tra/fm_slavd.tra~
+
+COPY_EXISTING ~spcourtf.cre~ ~lang/ru_RU/override~
+  SAY NAME1 #33007
+  SAY NAME2 #33007
+  BUT_ONLY_IF_IT_CHANGES
+
+STRING_SET_RANGE #33007 #33007 USING ~iwdeetra/tra/fm_spcrt.tra~
