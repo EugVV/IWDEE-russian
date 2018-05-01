@@ -5,7 +5,7 @@ VERSION ~V5.0~
 ALWAYS AT_INTERACTIVE_EXIT ~VIEW iwdeetra/README.txt~ END
 
 BEGIN ~Russian text for Icewind Dale: Enhanced Edition v2.5~
-STRING_SET_RANGE #0 #40932 USING ~iwdeetra/tra/rec.tra~
+STRING_SET_RANGE #0 #40941 USING ~iwdeetra/tra/rec.tra~
 
 COPY ~iwdeetra/L_ru_RU.lua~   ~override/L_ru_RU.lua~
 COPY ~iwdeetra/M_RusFnt.lua~   ~override/M_RusFnt.lua~
