@@ -14,81 +14,67 @@ BEGIN ~Override Male/Female CRE for Russian text~
 
 MKDIR ~lang/ru_RU/override~
 
-/*
-COPY_EXISTING ~cdcapv2a.cre~ ~lang/ru_RU/override~
-    ~cdcapv5a.cre~ ~lang/ru_RU/override~
-    ~cdcapv7a.cre~ ~lang/ru_RU/override~
-    ~cfcapvil.cre~ ~lang/ru_RU/override~
-    ~fcapvil.cre~ ~lang/ru_RU/override~
-    ~ffcapvil.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~cdcapv2a.cre~ ~override~
+    ~cdcapv5a.cre~ ~override~
+    ~cdcapv7a.cre~ ~override~
+    ~cfcapvil.cre~ ~override~
+    ~fcapvil.cre~ ~override~
+    ~ffcapvil.cre~ ~override~
   SAY NAME1 #33000
   SAY NAME2 #33000
   BUT_ONLY_IF_IT_CHANGES
 
-COPY_EXISTING ~deadvilf.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~deadvilf.cre~ ~override~
   SAY NAME1 #33000
   SAY NAME2 #33001
   BUT_ONLY_IF_IT_CHANGES
-*/
 
 STRING_SET_RANGE #33000 #33001 USING ~iwdeetra/tra/fm_capvl.tra~
 
-/*
-COPY_EXISTING ~eldathyf.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~eldathyf.cre~ ~override~
   SAY NAME1 #33002
   SAY NAME2 #33002
   BUT_ONLY_IF_IT_CHANGES
-*/
 
 STRING_SET_RANGE #33002 #33002 USING ~iwdeetra/tra/fm_eldyn.tra~
 
-/*
-COPY_EXISTING ~mercwar2.cre~ ~lang/ru_RU/override~
-    ~mercwr2d.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~mercwar2.cre~ ~override~
+    ~mercwr2d.cre~ ~override~
   SAY NAME1 #33003
   SAY NAME2 #33003
   BUT_ONLY_IF_IT_CHANGES
-*/
 
 STRING_SET_RANGE #33003 #33003 USING ~iwdeetra/tra/fm_mercw.tra~
 
-/*
-COPY_EXISTING ~priestd.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~priestd.cre~ ~override~
   SAY NAME1 #33004
   SAY NAME2 #33004
   BUT_ONLY_IF_IT_CHANGES
-*/
 
 STRING_SET_RANGE #33004 #33004 USING ~iwdeetra/tra/fm_acoly.tra~
 
-/*
-COPY_EXISTING ~slavef1.cre~ ~lang/ru_RU/override~
-    ~slavef2.cre~ ~lang/ru_RU/override~
-    ~slavef3.cre~ ~lang/ru_RU/override~
-    ~slavef4.cre~ ~lang/ru_RU/override~
-    ~slavef5.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~slavef1.cre~ ~override~
+    ~slavef2.cre~ ~override~
+    ~slavef3.cre~ ~override~
+    ~slavef4.cre~ ~override~
+    ~slavef5.cre~ ~override~
   SAY NAME1 #33005
   SAY NAME2 #33005
   BUT_ONLY_IF_IT_CHANGES
-*/
 
 STRING_SET_RANGE #33005 #33005 USING ~iwdeetra/tra/fm_slave.tra~
 
-/*
-COPY_EXISTING ~slavedf1.cre~ ~lang/ru_RU/override~
-    ~slavedf2.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~slavedf1.cre~ ~override~
+    ~slavedf2.cre~ ~override~
   SAY NAME1 #33006
   SAY NAME2 #33006
   BUT_ONLY_IF_IT_CHANGES
-*/
 
 STRING_SET_RANGE #33006 #33006 USING ~iwdeetra/tra/fm_slavd.tra~
 
-/*
-COPY_EXISTING ~spcourtf.cre~ ~lang/ru_RU/override~
+COPY_EXISTING ~spcourtf.cre~ ~override~
   SAY NAME1 #33007
   SAY NAME2 #33007
   BUT_ONLY_IF_IT_CHANGES
-*/
 
 STRING_SET_RANGE #33007 #33007 USING ~iwdeetra/tra/fm_spcrt.tra~
