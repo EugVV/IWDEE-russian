@@ -31,7 +31,7 @@ IWDEE-russian
 Собранный перевод:
 ------------------
 
-[Сборка 1.3.1](https://yadi.sk/d/7bniyRuu3T6Rr6), файл обновляется.
+[Сборка 1.3.2](https://yadi.sk/d/7bniyRuu3T6Rr6), файл обновляется.
 
 [Сборка 1.2 (для старых версий игры)](https://yadi.sk/d/7t1XLfYQcajNk).
 
