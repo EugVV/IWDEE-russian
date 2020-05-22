@@ -2,7 +2,7 @@ BACKUP ~iwdeetra/backup~
 AUTHOR ~http://arcanecoast.ru (EE adaptation by Si1ver)~ //Visit the forums for questions
 VERSION ~V5.0~
 
-ALWAYS AT_INTERACTIVE_EXIT ~VIEW iwdeetra/README.txt~ END
+//ALWAYS AT_INTERACTIVE_EXIT ~VIEW iwdeetra/README.txt~ END
 
 BEGIN ~Russian text for Icewind Dale: Enhanced Edition v2.5~
 STRING_SET_RANGE #0 #40941 USING ~iwdeetra/tra/rec.tra~
