@@ -1,6 +1,6 @@
 BACKUP ~iwdeetra/backup~
 AUTHOR ~http://arcanecoast.ru (EE adaptation by Si1ver)~ //Visit the forums for questions
-VERSION ~V6.1~
+VERSION ~V6.2~
 
 //ALWAYS AT_INTERACTIVE_EXIT ~VIEW iwdeetra/README.txt~ END
 
@@ -8,7 +8,6 @@ BEGIN ~Russian text for Icewind Dale: Enhanced Edition v2.6~
 STRING_SET_RANGE #0 #41285 USING ~iwdeetra/tra/rec.tra~
 
 COPY ~iwdeetra/L_ru_RU.lua~   ~override/L_ru_RU.lua~
-COPY ~iwdeetra/M_RusFnt.lua~   ~override/M_RusFnt.lua~
 
 BEGIN ~Override Male/Female CRE for Russian text~
 
@@ -78,3 +77,15 @@ COPY_EXISTING ~spcourtf.cre~ ~lang/ru_RU/override~
   BUT_ONLY_IF_IT_CHANGES
 
 STRING_SET_RANGE #33007 #33007 USING ~iwdeetra/tra/fm_spcrt.tra~
+
+BEGIN ~Complete Russian fonts set~
+COPY ~iwdeetra/fonts/NORMAL.ttf~   ~lang/ru_RU/fonts/NORMAL.ttf~
+COPY ~iwdeetra/fonts/NORMAL.ttf~   ~lang/ru_RU/fonts/POSTANTI.ttf~
+COPY ~iwdeetra/fonts/NORMAL.ttf~   ~lang/ru_RU/fonts/STONEBIG.ttf~
+COPY ~iwdeetra/fonts/REALMS.ttf~   ~lang/ru_RU/fonts/REALMS.ttf~
+COPY ~iwdeetra/fonts/REALMS.ttf~   ~lang/ru_RU/fonts/SHERWOOD.ttf~
+COPY ~iwdeetra/fonts/STONESML.ttf~   ~lang/ru_RU/fonts/MODESTOM.ttf~
+COPY ~iwdeetra/fonts/STONESML.ttf~   ~lang/ru_RU/fonts/STONESML.ttf~
+COPY ~iwdeetra/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLTIP.ttf~
+
+COPY ~iwdeetra/M_RusFnt.lua~   ~override/M_RusFnt.lua~
