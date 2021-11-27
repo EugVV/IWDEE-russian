@@ -86,6 +86,7 @@ COPY ~iwdeetra/fonts/REALMS.ttf~   ~lang/ru_RU/fonts/REALMS.ttf~
 COPY ~iwdeetra/fonts/REALMS.ttf~   ~lang/ru_RU/fonts/SHERWOOD.ttf~
 COPY ~iwdeetra/fonts/STONESML.ttf~   ~lang/ru_RU/fonts/MODESTOM.ttf~
 COPY ~iwdeetra/fonts/STONESML.ttf~   ~lang/ru_RU/fonts/STONESML.ttf~
+COPY ~iwdeetra/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLFONT.ttf~
 COPY ~iwdeetra/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLTIP.ttf~
 
 COPY ~iwdeetra/M_RusFnt.lua~   ~override/M_RusFnt.lua~
