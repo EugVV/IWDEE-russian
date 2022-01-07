@@ -89,4 +89,7 @@ COPY ~iwdeetra/fonts/STONESML.ttf~   ~lang/ru_RU/fonts/STONESML.ttf~
 COPY ~iwdeetra/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLFONT.ttf~
 COPY ~iwdeetra/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLTIP.ttf~
 
+// Used in Dragonspear UI++
+COPY ~iwdeetra/fonts/rgtraj.ttf~   ~lang/ru_RU/fonts/rgtraj.ttf~
+
 COPY ~iwdeetra/M_RusFnt.lua~   ~override/M_RusFnt.lua~
