@@ -92,4 +92,7 @@ COPY ~iwdeetra/fonts/TOOLTIP.ttf~   ~lang/ru_RU/fonts/TOOLTIP.ttf~
 // Used in Dragonspear UI++
 COPY ~iwdeetra/fonts/rgtraj.ttf~   ~lang/ru_RU/fonts/rgtraj.ttf~
 
+// Used in Infinity UI++
+COPY ~iwdeetra/fonts/NORMAL.ttf~   ~lang/ru_RU/fonts/rgfont.ttf~
+
 COPY ~iwdeetra/M_RusFnt.lua~   ~override/M_RusFnt.lua~
